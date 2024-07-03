@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bbbdaf;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #d4d4a5;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #000000 3px solid;
+        }
+        header a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+            font-size: 65;
+            color: black;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+            font-size: 25;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('your-image.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 50px;
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+            color: rgb(6, 9, 9);
+        }
+        .main-section {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .main-section h2 {
+            text-align: center;
+        }
+        .main-section p, .main-section ul {
+            text-align: center;
+        }
+        .main-section ul {
+            list-style: none;
+        }
+        .main-section li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+        .main-section img {
+            width:500;
+            height:300;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .experience {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        }
+        .company-logo {
+        width: 50px;  /* Adjust the size as needed */
+        height: 50px; /* Adjust the size as needed */
+        margin-right: 20px;
+        }
+        .experience-details {
+        flex: 1;
+        }
+        .experience-details strong {
+        display: block;
+        font-size: 1.2em;
+        }
+        .about-me {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+        }
+        .profile-img {
+        width: 400;  /* Adjust as needed */
+        height: 350; /* Adjust as needed */
+        border-radius: 20%; /* Optional: makes the image circular */
+        margin-right: 25px; /* Space between image and text */
+        margin-left: -21;
+        }
+        .about-text {
+        max-width: 600px; 
+        }
+        @media (max-width: 768px) {
+        .about-me {
+            flex-direction: column;
+            text-align: center;
+        }
+        .profile-img {
+            margin-right: 0;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Alonso Sainz</h1>  
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#showcase">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/alonso-sainz2134/">LinkedIn</a></li>
+                    <li><a href="https://github.com/AlonsoSainz">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <div class="about-me">
+                <img src="imgs/IMG_0182.jpg" alt="Alonso Sainz" class="profile-img">
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>Hi, I'm Alonso Sainz, a dedicated Data Analyst with a strong foundation in statistical analysis, machine learning, and data visualization. 
+                        With a Bachelor's degree in Management Information Systems and over 16 months of professional experience, I excel at transforming complex datasets into actionable insights that drive strategic decision-making. 
+                        My expertise includes utilizing tools like Python and SQL to conduct thorough data analysis. I am proficient in leveraging visualization software such as Tableau and Office to present findings in a clear and impactful manner. 
+                        I have a proven track record of implementing data-driven solutions to optimize processes, enhance customer experiences, and improve overall business performance. 
+                        Passionate about continuous learning and staying updated with industry trends, I am committed to helping organizations unlock the full potential of their data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="main-section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience">
+                <img src="imgs/jhe_logo.png" class="company-logo">
+                <div class="experience-details">
+                    <strong>JHE Trucking Services</strong> Jr. Data Analyst (2023 - May 2024)
+                    <p>As a Junior Data analyst for a small Trucking Company, I was responsible for developing and maintaining comprehensive reports and dashboards that monitored key performance indicators (KPIs) such as delivery routes, fuel usage, and fleet maintenance schedules. 
+                        I collaborated closely with business consultants to design and implement data-driven routing solutions, which resulted in a significant 16% reduction in travel distance. </p>
+                </div>
+            </div>
+            
+            <div class="experience">
+                <img src="imgs/bonapetit_logo.png" alt="Bon Appetit Logo" class="company-logo">
+                <div class="experience-details">
+                    <strong>Bon Appetit</strong> Vending Attendant (2018 - 2021)
+                    <p>In my role as a Vending Attendant at Bon Apetit, I efficiently managed the kitchen's inventory on a daily basis, meticulously tracking stock levels and maintaining optimal inventory to ensure seamless operations. 
+                        Through diligent inventory management, I successfully reduced weekly waste by 8.5%. 
+                        Additionally, I analyzed customer behavior and identified trends to ensure that the appropriate items were stocked daily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="projects" class="main-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="imgs/proj2.png" width="450">
+                <h3>Market Basket Analysis</a></h3>
+                <p><strong>Utilized the Apriori algorithm and association rule mining to find frequent itemsets uncovering customer purchasing patterns and trends.</strong></p>
+                <p><a href="https://github.com/AlonsoSainz/MarketBasket_Analysis" target="_blank">GitHub Repository</a> | <a href="MB Analysis Report.pdf" download>Project Report (PDF)</a></p>
+            </div>
+            
+            <div class="project">
+                <img src="imgs/proj3.png">
+                <h3><a href="proj3.html">GeoSpatial Analysis</a></h3>
+                <p><strong>Conducted a comprehensive GeoSpatial Analysis for a trucking company helping visualize and optimize routes to enhance operational efficiency.</strong></p>
+                <p><a href="https://colab.research.google.com/drive/1phcl9An807XdLcWG9Yt1WF63Amfsb0l1#scrollTo=XVO9TnIMzLFP" target="_blank">Google Colab</a> | <a href="Geospatial_analysis.pdf" download>Project Report (PDF)</a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="resume" class="main-section">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="resume final draft 24'.pdf" download>here</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Alonso Sainz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
